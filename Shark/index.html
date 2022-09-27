@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shark</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar__logo">
+                <i class="las la-cube la-3x logo__icon"></i>
+                <h2>Shark</h2>
+            </div>
+            <nav class="menu"></nav>
+            <div class="project"></div>
+            <div class="sidebar__btn"></div>
+        </div>
+        <div class="inbox"></div>
+        <div class="dialog">
+            <div class="dialog__top">
+                <div class="dialog__contact">
+                    <div class="contact__logo"><img class="avatar" src="/Img/1.webp" alt=""></div>
+                    <div class="contact__info">
+                        <span class="contact__info--name">Michael.B</span>
+                        <span class="contact__info--status">Online</span>
+                    </div>
+                </div>
+                <div class="dialog__button--top">
+                    <input class="dialog__input" type="text" placeholder="Search.." /><i class="las la-search"></i>
+                    <button class="dialog__btn light"><i class="las la-microphone"></i></button>
+                    <button class="dialog__btn light"><i class="las la-video"></i></button>
+                </div>
+            </div>
+            <div class="dialog__main"></div>
+            <div class="dialog__bottom">
+                <div class="dialog__message">
+                    <input class="dialog__text" type="text" placeholder="Write a message...">
+                </div>
+                <div class="dialog__button--down">
+                    <button class="dialog__btn dark"><i class="las la-image"></i></button>
+                    <button class="dialog__btn dark"><i class="las la-microphone"></i></button>
+                    <button class="dialog__btn blue"><i class="las la-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="pannel">
+            <div class="pannel__top">
+                <button class="pannel__btn"><i class="las la-ellipsis-v la-3x"></i></button>
+            </div>
+            <div class="pannel__bottom">
+                <div></div>
+                <button class="pannel__btn"><i class="las la-exclamation-circle la-3x"></i></button>
+                <button class="pannel__btn"><i class="las la-bell-slash  la-3x"></i></button>
+                <button class="pannel__btn"><i class="las la-trash-alt  la-3x"></i></i></button>
+
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
