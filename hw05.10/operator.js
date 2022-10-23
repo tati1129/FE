@@ -46,3 +46,6 @@ if (nuts>foods) {
     result='Больше потратили на фрукты и овощи';
 }
 console.log(result);
+
+
+

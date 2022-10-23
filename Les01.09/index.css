@@ -1,0 +1,33 @@
+body {
+    margin: 2rem;
+}
+.button {
+    font-size: 1.5rem; 
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all .25s ease-out;
+}
+.button--red {
+    background: rgba(255, 0, 0, 0.243);
+}
+.button--green {
+    background: rgba(0, 255, 60, 0.243);
+}
+.button--red:hover {
+    background: rgba( 255, 0, 0, 0.116);
+}
+.button--green:hover {
+    background: rgba(0, 255, 60, 0.134);
+}
+.actions {
+display: flex;
+background:#eeeeee;
+padding: 1rem;
+width: 8rem;
+border-radius: 12px;
+justify-content: space-evenly;
+margin-bottom: 5rem;
+}

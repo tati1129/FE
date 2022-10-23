@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+.gallery {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.gallery img {
+    width: calc(100% / 4);
+}

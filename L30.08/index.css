@@ -1,0 +1,8 @@
+.block {
+    background: var(--main-bg-color);
+    height: 500px;
+    width: 500px;
+    border: var(--border);
+    color: var(--text);
+
+}
